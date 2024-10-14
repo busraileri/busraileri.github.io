@@ -1,6 +1,6 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 
-namespace MyPortfolio.MyPortfolio.DAL.Entities
+namespace MyPortfolio.DAL.Entities
 {
     public class Contact
     {

@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MyPortfolio.MyPortfolio.ViewComponents
+namespace MyPortfolio.ViewComponents
 {
-    public class _HeadComponentPartial : ViewComponent
-
+    public class _FooterComponentPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {
 
             return View();
+
         }
     }
 }

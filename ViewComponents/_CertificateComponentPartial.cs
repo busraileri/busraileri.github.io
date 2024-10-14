@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MyPortfolio.MyPortfolio.ViewComponents
+namespace MyPortfolio.ViewComponents
 {
     public class _CertificateComponentPartial : ViewComponent
     {

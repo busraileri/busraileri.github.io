@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MyPortfolio.MyPortfolio.ViewComponents
+namespace MyPortfolio.ViewComponents
 {
-    public class _ContactComponentPartial : ViewComponent
+    public class _NavbarComponentPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {
             return View();
         }
+
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace MyPortfolio.MyPortfolio.DAL.Entities
+﻿namespace MyPortfolio.DAL.Entities
 {
     public class Feature
     {

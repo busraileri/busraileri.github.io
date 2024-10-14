@@ -3,20 +3,18 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MyPortfolio.MyPortfolio.DAL.Context;
+using MyPortfolio.DAL.Context;
+
 
 #nullable disable
 
 namespace MyPortfolio.Migrations
 {
     [DbContext(typeof(MyPortfolioContext))]
-    [Migration("20241009193433_mig1")]
-    partial class mig1
+    partial class MyPortfolioContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

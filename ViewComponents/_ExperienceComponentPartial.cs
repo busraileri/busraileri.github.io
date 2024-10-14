@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyPortfolio.MyPortfolio.DAL.Context;
+using MyPortfolio.DAL.Context;
 
-namespace MyPortfolio.MyPortfolio.ViewComponents
+namespace MyPortfolio.ViewComponents
 {
     public class _ExperienceComponentPartial : ViewComponent
     {

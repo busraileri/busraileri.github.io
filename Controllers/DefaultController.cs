@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MyPortfolio.MyPortfolio.Controllers
+namespace MyPortfolio.Controllers
 {
     public class DefaultController : Controller
     {
